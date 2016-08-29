@@ -1,0 +1,221 @@
+{
+  "1": {
+    "number": 1,
+    "title": "Not having the knowledge we need, test an idea whose time has come"
+  },
+  "2": {
+    "number": 2,
+    "title": "False knowledge."
+  },
+  "3": {
+    "number": 3,
+    "title": "The dark side of our behaviour"
+  },
+  "4": {
+    "number": 4,
+    "title": "Traditions"
+  },
+  "5": {
+    "number": 5,
+    "title": "A malfunctioning survival mechanism",
+    "description": "We built up a tolerance towards our mistakes and now derives pleasure from them. We cant trust our instincts anymore."
+  },
+  "6": {
+    "number": 6,
+    "title": "Fear",
+    "description": "Fear removes our ability to see things clearly. And seeing things clearly is a prerequisite to solving any problem."
+  },
+  "7": {
+    "number": 7,
+    "title": "Our six subsequent needs",
+    "subpieces": {
+      "7.1": {
+        "number": 7.1,
+        "title": "Education"
+      },
+      "7.2": {
+        "number": 7.2,
+        "title": "Money"
+      },
+      "7.3": {
+        "number": 7.3,
+        "title": "Media"
+      },
+      "7.4": {
+        "number": 7.4,
+        "title": "Government"
+      },
+      "7.5": {
+        "number": 7.5,
+        "title": "Religion"
+      },
+      "7.6": {
+        "number": 7.6,
+        "title": "Power"
+      },
+    }
+  },
+  "8": {
+    "number": 8,
+    "title": "The wrong approach"
+  },
+  "9": {
+    "number": 9,
+    "title": "The neocortex & the reptilian brain",
+    "description": "Reptilian brain gets addicted to anything thats pleasurable"
+  },
+  "10": {
+    "number": 10,
+    "title": "Shooting inside the tent",
+    "description": "Lack of continuity among those who knows they are making mistakes"
+  },
+  "11": {
+    "number": 11,
+    "title": "Lost our natural instincts",
+    "description": "Other animals instincts tells them the right thing to do. We need to use our brains until our problems are solved. Then our feedback system will tell us what to do."
+  },
+  "12": {
+    "number": 12,
+    "title": "A lack of knowledge of the cleansing reactions",
+    "description": "Often when we do the right things we think we are doing the wrong things because we are experiencing a negative effect."
+  },
+  "13": {
+    "number": 13,
+    "title": "Emotion before intellect"
+  },
+  "14": {
+    "number": 14,
+    "title": "We are herd animals"
+  },
+  "15": {
+    "number": 15,
+    "title": "addictions"
+  },
+  "16": {
+    "number": 16,
+    "title": "denial"
+  },
+  "17": {
+    "number": 17,
+    "title": "habits"
+  },
+  "18": {
+    "number": 18,
+    "title": "apathy",
+    "subpieces":{
+      "18.1": {
+        "number": 18.1,
+        "title": "Unwillingness to admin false knowledge",
+        "subpieces": {
+          "18.1.1": {
+            "number": "18.1.1",
+            "title": "Unwillingness to admit false knowledge in place of the knowledge we need."
+          },
+          "18.1.2": {
+            "number": "18.1.2",
+            "title": "Unwillingness to admit mistakes."
+          },
+          "18.1.3": {
+            "number": "18.1.3",
+            "title": "Unwillingness to admit that most of our problems are within our control."
+          }
+        }
+      },
+      "18.2": {
+        "number": 18.2,
+        "title": "Unwillingness to search for information"
+      },
+      "18.3": {
+        "number": 18.3,
+        "title": "Unwillingness to listen to information"
+      },
+      "18.4": {
+        "number": 18.4,
+        "title": "Unwillingness to believe the information"
+      },
+      "18.5": {
+        "number": 18.5,
+        "title": "Unwillingness to apply what we know"
+      },
+      "18.6": {
+        "number": 18.6,
+        "title": "Unwillingness to commitower"
+      },
+      "18.7": {
+        "number": 18.7,
+        "title": "Unwillingness to share this knowledge"
+      },
+    }
+  },
+  "19": {
+    "number": 19,
+    "title": "desires"
+  },
+  "20": {
+    "number": 20,
+    "title": "guilt"
+  },
+  "21": {
+    "number": 21,
+    "title": "emotional needs"
+  },
+  "22": {
+    "number": 22,
+    "title": "air"
+  },
+  "23": {
+    "number": 23,
+    "title": "water"
+  },
+  "24": {
+    "number": 24,
+    "title": "food"
+  },
+  "25": {
+    "number": 25,
+    "title": "sunshine"
+  },
+  "26": {
+    "number": 26,
+    "title": "exercise"
+  },
+  "27": {
+    "number": 27,
+    "title": "sleep"
+  },
+  "28": {
+    "number": 28,
+    "title": "though"
+  },
+  "29": {
+    "number": 29,
+    "title": "feeling"
+  },
+  "30": {
+    "number": 30,
+    "title": "community"
+  },
+  "31": {
+    "number": 31,
+    "title": "freedom of things outside of our control"
+  },
+  "32": {
+    "number": 32,
+    "title": "procreate"
+  },
+  "33": {
+    "number": 33,
+    "title": "enviroment to sustain us"
+  },
+  "34": {
+    "number": 33,
+    "title": "subsequent needs"
+  },
+  "35": {
+    "number": 33,
+    "title": "subsequent causes",
+    "description": "Needs gotten by bad behaviour. E.g. bad lungs from smoking."
+  },
+
+
+}

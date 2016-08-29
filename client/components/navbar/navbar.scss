@@ -1,0 +1,17 @@
+navbar .wrapper{
+  background-image:
+    radial-gradient(
+      #1D2326,
+      #171C1F
+    );
+
+  height: 40px;
+
+  .social-media-icons{
+    font-size: 1.5em;
+    color: grey;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,88 @@
+@font-face {
+    font-family: medieval;
+    src: url(../assets/fonts/ruritania/ruritania.ttf);
+}
+
+@font-face {
+    font-family: tabs;
+    src: url(../assets/fonts/washington-text/washington-text.ttf);
+}
+
+$gold: #E3AA00;
+
+html, body{
+  padding: 0;
+  margin: 0;
+  background-color: #1E1E20;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  color: white;
+  &::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+  }
+}
+
+.image{
+  height:320px;
+  background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.one{
+  background-image: url(../assets/images/lord_eglington.jpg);
+}
+
+.two{
+  background-image: url(../assets/images/Adam-and-Eve-in-the-Garden-of-Eden.jpg);
+}
+
+.three{
+  background-image: url(../assets/images/ivan_konstantinovich_aivazovsky_world_deluge.jpg);
+}
+
+svg{
+  fill: $gold;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.center{
+  max-width: 1000px;
+  margin: auto;
+  padding: 25px;
+}
+
+.container{
+  max-width: 1000px;
+  margin: auto;
+  padding: 25px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.navbar-text {
+  margin-left: 15px;
+}
+
+.feast-seminar{
+  background-image:
+    radial-gradient(
+      #161b1d,
+      #000000
+    );
+}
