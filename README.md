@@ -1,5 +1,11 @@
 # The Hero's Map
 
+A storytelling web application showing a map of the ultimate schematic by John Rose. The app uses angular-material.
+
+This is a work in development!
+
+All the pieces I currently possess are defined in `client/assets/pieces.js`.
+
 This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 4.0.1.
 
 ## Getting Started
