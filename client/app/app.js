@@ -7,7 +7,7 @@ import ngResource from 'angular-resource';
 import ngSanitize from 'angular-sanitize';
 import ngMaterial from 'angular-material';
 import ngParallax from 'ng-parallax';
-import skrollr from 'skrollr';
+import aos from 'aos';
 
 import uiRouter from 'angular-ui-router';
 
@@ -47,4 +47,5 @@ angular.element(document)
     angular.bootstrap(document, ['hmApp'], {
       strictDi: true
     });
+    aos.init();
   });

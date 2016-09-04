@@ -18,6 +18,7 @@ the-map{
     max-width: 1000px;
     margin: auto;
     padding: 25px;
+    overflow: hidden;
   }
 
   .box{
@@ -81,13 +82,13 @@ the-map{
 
 .group-panel-wrapper{
   border-radius: 5px;
-  padding: 30px;
+  padding: 20px;
   color: black;
-  background-image:
-    radial-gradient(
-      #FFFFFF,
-      #CCCCCC
-    );
+  background-image: radial-gradient(#FFFFFF, #CCCCCC);
+
+  h1{
+    margin-top: 0;
+  }
 }
 
 .disclaimer{

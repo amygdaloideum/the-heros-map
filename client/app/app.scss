@@ -1,6 +1,7 @@
 $fa-font-path: '/assets/fonts/font-awesome/';
 @import '~font-awesome/scss/font-awesome';
-
+@import '~animate.css/';
+@import '~aos/dist/aos';
 @import '~angular-material/angular-material';
 
 // @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,900|Roboto:300,500,700,900);
@@ -26,11 +27,11 @@ $fa-font-path: '/assets/fonts/font-awesome/';
 // Component styles are injected through gulp
 /* inject:scss */
 @import 'main/main';
+@import '../components/blue-box/blue-box';
 @import '../components/footer/footer';
 @import '../components/green-box/green-box';
 @import '../components/navbar/navbar';
 @import '../components/red-box/red-box';
-@import '../components/blue-box/blue-box';
-@import '../components/the-map/the-map';
 @import '../components/the-feast/the-feast';
+@import '../components/the-map/the-map';
 /* endinject */

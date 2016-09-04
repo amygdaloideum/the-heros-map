@@ -11,11 +11,16 @@ blue-box{
     .banner{
       font-size: 6em;
     }
+
+    .wrapper{
+      height: 100vh;
+    }
   }
 
   @media screen and (max-width: 768px) {
     .banner{
       font-size: 3.5em;
+      margin: 10px;
     }
   }
 

@@ -30,7 +30,7 @@ export class groupComponent {
     }
     let position = this.$mdPanel.newPanelPosition()
       .relativeTo(ev.srcElement)
-      .addPanelPosition(this.$mdPanel.xPosition.ALIGN_START, this.$mdPanel.yPosition.BELOW);
+      .addPanelPosition(this.$mdPanel.xPosition.CENTER, this.$mdPanel.yPosition.BELOW);
     var config = {
       attachTo: angular.element(document.body),
       controller: function(){
@@ -41,7 +41,7 @@ export class groupComponent {
       `<div class="group-panel-wrapper">
         <h1>{{ctrl.groupName}}</h1>
         <h3>{{ctrl.desc}}</h2>
-        <div ng-repeat="piece in ctrl.pieces">{{piece.number}} {{piece.title}}</div>
+        <div ng-repeat="piece in ctrl.pieces"><strong>{{piece.number}}</strong> {{piece.title}}</div>
       </div>`,
       position: position,
       locals: {
@@ -53,7 +53,7 @@ export class groupComponent {
       clickOutsideToClose: true,
       escapeToClose: true,
       focusOnOpen: false,
-      zIndex: 2
+      zIndex: 2 //,animation: this.$mdPanel.newPanelAnimation().openFrom(ev.srcElement).closeTo(ev.srcElement).withAnimation(this.$mdPanel.animation.FADE)
     };
     this.panelRef = this.$mdPanel.create(config);
     this.panelRef.open();

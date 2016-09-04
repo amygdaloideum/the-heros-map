@@ -8,6 +8,15 @@
     src: url(../assets/fonts/washington-text/washington-text.ttf);
 }
 
+[aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
+}
+
 $gold: #E3AA00;
 
 html, body{

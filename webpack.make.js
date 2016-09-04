@@ -50,8 +50,7 @@ module.exports = function makeWebpackConfig(options) {
                 'angular-sanitize',
                 'angular-ui-router',
                 'angular-material',
-                'lodash',
-                'skrollr'
+                'lodash'
             ]
         };
     }
@@ -140,7 +139,8 @@ module.exports = function makeWebpackConfig(options) {
             loader: 'babel',
             include: [
                 path.resolve(__dirname, 'client/'),
-                path.resolve(__dirname, 'node_modules/lodash-es/')
+                path.resolve(__dirname, 'node_modules/lodash-es/'),
+                path.resolve(__dirname, 'node_modules/aos/dist/')
             ]
         }, {
             // TS LOADER
@@ -187,7 +187,11 @@ module.exports = function makeWebpackConfig(options) {
                 ? ExtractTextPlugin.extract('style', 'css?sourceMap!postcss')
                 // Reference: https://github.com/webpack/null-loader
                 // Skip loading css in test mode
-                : 'null'
+                : 'null',
+            include: [
+              path.resolve(__dirname, 'node_modules/aos/dist/'),
+              path.resolve(__dirname, 'node_modules/animate.css/animate.css/animate.min.css')
+            ]
         }, {
             // SASS LOADER
             // Reference: https://github.com/jtangelder/sass-loader
